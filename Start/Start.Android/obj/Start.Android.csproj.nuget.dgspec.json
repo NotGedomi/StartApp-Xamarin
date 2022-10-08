@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Github\\Xamarin App\\Start\\Start.Android\\Start.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Github\\Xamarin App\\Start\\Start.Android\\Start.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\Xamarin App\\Start\\Start.Android\\Start.Android.csproj",
+        "projectName": "Start.Android",
+        "projectPath": "C:\\Github\\Xamarin App\\Start\\Start.Android\\Start.Android.csproj",
+        "packagesPath": "C:\\Users\\Gedomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\Xamarin App\\Start\\Start.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gedomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "C:\\Github\\Xamarin App\\Start\\Start\\Start.csproj": {
+                "projectPath": "C:\\Github\\Xamarin App\\Start\\Start\\Start.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Charpnado.Presentation.Forms": {
+              "target": "Package",
+              "version": "[1.7.1.4, )"
+            },
+            "Grishado.Forms.HorizontalListView": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "Sharpnado.CollectionView": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Sharpnado.Forms.HorizontalListView": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Sharpnado.MaterialFrame": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Sharpnado.Tabs": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Sharpnado.TaskLoaderView": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Github\\Xamarin App\\Start\\Start\\Start.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Github\\Xamarin App\\Start\\Start\\Start.csproj",
+        "projectName": "Start",
+        "projectPath": "C:\\Github\\Xamarin App\\Start\\Start\\Start.csproj",
+        "packagesPath": "C:\\Users\\Gedomi\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\Xamarin App\\Start\\Start\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gedomi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Charpnado.Presentation.Forms": {
+              "target": "Package",
+              "version": "[1.7.1.4, )"
+            },
+            "Grishado.Forms.HorizontalListView": {
+              "target": "Package",
+              "version": "[1.8.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Sharpnado.CollectionView": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Sharpnado.Forms.HorizontalListView": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Sharpnado.MaterialFrame": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "Sharpnado.Tabs": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Sharpnado.TaskLoaderView": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
